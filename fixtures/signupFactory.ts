@@ -18,7 +18,7 @@ export class SignupFactory {
       // Ensure uniqueness
       email: `qa_${Date.now()}_${faker.string.alphanumeric(5).toLowerCase()}@mailinator.com`,
 
-      password: 'Srikanth@1988',
+      password: 'TestPassword123',
 
       // UI value (adjust if your dropdown expects abbreviation)
       province: 'ON',
